@@ -3,6 +3,7 @@
 #include <locale.h>
 
 void main() {
+    setlocale(LC_CTYPE, "RUS");
     double n;
     double res = 0;
     puts("введите n");
